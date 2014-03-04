@@ -135,6 +135,13 @@ hi TabLine		guifg=#404040 guibg=#dddddd gui=none
 hi TabLineFill	guifg=#404040 guibg=#dddddd gui=none
 hi TabLineSel	guifg=#404040 gui=bold
 " }}}
+
+hi SignColumn guibg=#ECECEC
+hi GitGutterAdd guibg=#ECECEC guifg=#00A000
+hi GitGutterChange guibg=#ECECEC guifg=#A0A000
+hi GitGutterDelete guibg=#ECECEC guifg=#A00000
+hi GitGutterChangeDelete guibg=#ECECEC guifg=#A00000
+
 "
 " vim: sw=4 ts=4 foldmethod=marker
 
